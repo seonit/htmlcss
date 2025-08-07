@@ -1,0 +1,32 @@
+div {
+  border: 1px solid #000000;
+}
+
+.main-border {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.main-border > div {
+  width: 150px;
+  height: 150px;
+} 
+
+.div-absolute1 {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.div-absolute2 {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+
+.div-absolute3 {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}

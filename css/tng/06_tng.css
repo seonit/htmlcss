@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 550px;
+}
+
+.header {
+  background-color: black;
+  color: orange;
+  padding: 10px;
+  }
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: red;
+  line-height: 50px;
+}
+
+.sub-head {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+fieldset {
+  text-align: center;
+  padding: 5px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
+  padding-bottom: 15px;
+}
+
+.last-content {
+  text-align: center;
+  padding: 10px;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  padding-bottom: 20px;
+}
+
+.blue {
+  color: blue;
+}
+
+.main-content {
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
