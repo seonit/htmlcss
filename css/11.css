@@ -1,0 +1,5 @@
+/* 가상요소 */
+.requirde-sign::before {
+  content: '*';
+  color: red;
+}
