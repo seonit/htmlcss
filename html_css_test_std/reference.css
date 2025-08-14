@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 50%;
+  transition: all 1.3s;
+}
+
+/* 상단 배너이미지 */
+.header-banner {
+  padding: 55px 30px;
+  width: 100%;
+  background-image: url(./img/img_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr))
+}
+
+.header-banner {
+  color: #ffffff;
+}
+
+.banner-one{
+  padding: 30px 0px;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.banner-two {
+  padding: 20px 0px;
+  margin-top: 12px;
+  align-content: center;
+  font-size: 1.5rem;
+}
+
+.banner-btn {
+  width: 230px;
+  height: 60px;
+  border: none;
+  background-color: #daa520;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+/* 메인 아이템 */
+
+.main-item {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 15px;
+  margin-bottom: 70px;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-img {
+  width: 100%;
+  padding-top: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sub {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.item-btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #daa520;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.main-item-content {
+  margin-top: 15px;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 70%);
+  color: #ffffff;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.footer {
+  background: #363636;
+  padding: 25px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
